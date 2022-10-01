@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #101010;
+}
+
+/* Navbar */
+
+nav {
+    z-index: 22;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #191919;
+    border-bottom: 1px solid red;
+    position: fixed;
+    width: 85%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+/* Navbar selesai */
+
+.medsos {
+    position: absolute;
+    top: 30%;
+    left: 500px;
+    transform: translateY(-50%);
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    margin: 10px 0 20px;
+}
+
+.img {
+    width: 1px;
+    height: 1px;
+}
+
+.img-ig {
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    top: 80px;
+    bottom: 0;
+    right: 700px;
+    transform: translateX(20%);
+}
+
+.img-ig h3 {
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+}
+
+.img-wa {
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    top: 130px;
+    bottom: 0;
+    right: 100px;
+    transform: translateX(20%);
+}
+
+.img-wa h3 {
+    position: relative;
+    left: 350px;
+    bottom: 150px;
+}
